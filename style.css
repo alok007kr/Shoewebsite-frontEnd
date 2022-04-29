@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+body{
+    height: 100vh;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header navbar{
+    margin: 30px 15px;
+}
+header .container{
+    display: flex;
+
+}
+header .text{
+    margin: 130px;
+}
+header .text h3{
+    color: red;
+    font-size: xx-large;
+}
+header .text h1{
+    margin-top: 15px;
+    font-size: xx-large;
+}
+header .text p{
+    margin-top: 10px;
+    line-height: 20px;
+}
+header .text button{
+    margin-top: 20px;
+    padding: 15px 25px;
+    font-size:large;
+    border-radius: 40px;
+    border-color: grey;
+    background-color: aliceblue;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 28px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover{
+    color:azure;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 8;
+    font-size: 70px;
+    margin-left: 180px;
+}
+navbar .brand{
+    margin-left: 30px;
+    color: white;
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+navbar .social{
+    margin-top: 30px;
+    margin-left: 28px;
+}
+navbar .social img{
+    height: 45px;
+    width: 45px;
+
+}
+navbar p{
+    margin-top: 32px;
+    color: white;
+    line-height: 25px;
+}
+navbar p span{
+    margin-left: 35px;
+}
+section .ptext{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    margin-bottom: 90px;
+}
+section .ptext span{
+    color: red;
+}
+section .pslide{
+    text-align: center;
+}
+section .pslide img{
+    margin-bottom: 20px;
+}
+section .pbtn{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: grey;
+    border-color: grey;
+    background-color: white;
+    margin-bottom: 80px;
+}
+section .services{
+    display: flex;
+    justify-content: space-around;
+}
+section .services h4{
+    color: grey;
+    margin-top: 3px;
+}
+section h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+section h1 span{
+    color: red;
+}
+section .creview{
+    display: flex;
+    justify-content: space-around;
+}
+section .creview img{
+    margin-bottom: 15px;
+    justify-content: center;
+
+}
+section .creview .pimage{
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+section .contact h1 .mid{
+    
+    margin-top: 30px;
+    margin-bottom: 15px;
+
+}
+section .contact h1 span{
+    color: red;
+}
+section .contactform{
+    text-align: center;
+}
+
+section .contactform .sendbtn{
+    padding: 10px; 
+    border-radius: 30px;
+    background-color: white;
+    color: grey;
+    margin-top: 20px;
+}
+section .contactform h4{
+    margin-top: 20px;
+}
+section .contactform hr{
+    margin-top: 20px;
+    width: 20%;
+    margin-left: 45%;
+}
+section .contactform .dist{
+    margin-top: 50px;
+}
